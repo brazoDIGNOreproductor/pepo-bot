@@ -16,7 +16,7 @@ module.exports = {
 		}
 // llamado con timer
 		let timer = args[0];
-		if (isNaN(timer)) return message.reply('necesito un numerito bro');
+		if (isNaN(timer)) timer = "10";
 
 		const code = "<:code:750173444150132746>";
 		const iron = "<:iron:747272314344701962>";
