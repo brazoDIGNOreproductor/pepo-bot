@@ -1,6 +1,8 @@
 module.exports = {
   name: 'flex',
   description: 'llamado al pueblo para jugar una clasificatoria flexible',
+	aliases: ['lol'],
+	cooldown: 5,
   execute (message, args) {
 // borra el llamado al bot
 		message.delete();
